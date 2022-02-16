@@ -87,11 +87,11 @@ INFO SECTION
 */
 
 .info-section {
-    height: 250px;
     padding: 32px;
     display: flex;
     flex-flow: column;
     align-items: center;
+    flex: 1 1 auto;
     gap: 24px;
 }
 
@@ -116,4 +116,35 @@ INFO SECTION
     width: 200px;
     height: 200px;
     border-radius: 8px;
+}
+
+
+/*
+INFO SECTION
+*/
+
+.quote-section {
+    background-color: #e5e7eb;
+    height: 250px;
+    padding: 16px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.quote-section .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 550px;
+}
+
+.quote-section .author {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1F2937;
+    width: 550px;
+    text-align: end;
 }
