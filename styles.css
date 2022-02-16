@@ -92,6 +92,14 @@ INFO SECTION
 */
 
 .info-section {
+    /* Setting up background image in info section*/
+    background-image: url("./images/pexels-adonyi-gábor-2064357.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
+    background-size: cover;
+    background-size: auto 800px;
+
     padding: 32px;
     display: flex;
     flex-flow: column;
@@ -112,7 +120,9 @@ INFO SECTION
 }
 
 .info-section .info {
+    width: 200px;
     display: flex;
+    flex: 1 0 auto;
     flex-flow: column;
     text-align: center;
 }
@@ -123,9 +133,13 @@ INFO SECTION
     border-radius: 8px;
 }
 
+.info-section .info div {
+    font-weight: 600;
+    color: #1F2937;
+}
 
 /*
-INFO SECTION
+QUOTE SECTION
 */
 
 .quote-section {
