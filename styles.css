@@ -18,6 +18,16 @@ a {
     color: aliceblue;
 }
 
+button {
+    color: aliceblue;
+    background-color: #3882f6;
+    border: 1px solid #3882f6;
+    border-radius: 8px;
+    padding: 4px 24px;
+    font-weight: bold;
+}
+
+
 
 /*
 HEADER SECTION
@@ -74,11 +84,6 @@ TOP SECTION
 .top-section button {
     flex: 0 0 auto;
     align-self: flex-start;
-    color: aliceblue;
-    background-color: #3882f6;
-    border: 1px solid #3882f6;
-    border-radius: 8px;
-    padding: 4px 16px;
 }
 
 
@@ -147,4 +152,42 @@ INFO SECTION
     color: #1F2937;
     width: 550px;
     text-align: end;
+}
+
+
+/*
+SIGNUP SECTION
+*/
+
+.signup-section {
+    height: 250px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-section .container {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 48px 100px;
+    display: flex;
+    gap: 128px;
+}
+.signup-section .text {
+    color: #e5e7eb;
+    width: 350px;
+}
+
+.signup-section .main {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.signup-section .secondary {
+    font-size: 12px;
+}
+
+.signup-section button {
+    border: 1px solid #F9FAf8;
 }
