@@ -191,3 +191,18 @@ SIGNUP SECTION
 .signup-section button {
     border: 1px solid #F9FAf8;
 }
+
+
+/*
+FOOTER
+*/
+
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    font-weight: bolder;
+    text-align: center;
+    padding: 24px;
+}
+
+
